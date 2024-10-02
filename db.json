@@ -1,84 +1,67 @@
 {
-    "properties": [
-      {
-        "id": 1,
-        "name": "Berendo St",
-        "address": "123 Elm Street",
-        "city": "Cairo",
-        "photo": "assets/images/img_1.jpg",
-        "description": "A cozy 3-bedroom house with a large backyard.",
-        "price": 250000,
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "squareFeet": 1500,
-        "dateListed": "2024-09-01T00:00:00Z",
-        "PropertyTypeId": 1,
-        "agentId": 1
+  "properties": [
+    {
+      "id": "1",
+      "name": "Berendo St",
+      "address": "123 Elm Street",
+      "city": "Cairo",
+      "photo": "assets/images/img_1.jpg",
+      "description": "A cozy 3-bedroom house with a large backyard.",
+      "price": 250000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1500,
+      "dateListed": "2024-09-01T00:00:00Z",
+      "PropertyTypeId": 1,
+      "agentId": 1
     },
     {
-        "id": 2,
-        "name": "Crenshaw BLVD",
-        "address": "456 Oak Avenue",
-        "city": "Alex",
-        "photo": "assets/images/img_2.jpg",
-        "description": "Modern 2-bedroom apartment in a central location.",
-        "price": 180000,
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "squareFeet": 1000,
-        "dateListed": "2024-08-15T00:00:00Z",
-        "PropertyTypeId": 2,
-        "agentId": 2
-    },
-    {
-        "id": 3,
-        "name": "Lucene CLM",
-        "address": "789 Maple Road",
-        "city": "Giza",
-        "photo": "assets/images/img_3.jpg",
-        "description": "Spacious 4-bedroom family home with a finished basement.",
-        "price": 320000,
-        "bedrooms": 4,
-        "bathrooms": 3,
-        "squareFeet": 2000,
-        "dateListed": "2024-07-20T00:00:00Z",
-        "PropertyTypeId": 1,
-        "agentId": 1
+      "id": "2",
+      "name": "Crenshaw BLVD",
+      "address": "456 Oak Avenue",
+      "city": "Alex",
+      "photo": "assets/images/img_2.jpg",
+      "description": "Modern 2-bedroom apartment in a central location.",
+      "price": 180000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "squareFeet": 1000,
+      "dateListed": "2024-08-15T00:00:00Z",
+      "PropertyTypeId": 2,
+      "agentId": 2
     }
-    ],
-    "agents": [
-      {
-        "id": 1,
-        "firstName": "John",
-        "lastName": "Doe",
-        "email": "john.doe@example.com",
-        "phone": "+1-555-1234"
+  ],
+  "agents": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-555-1234"
     },
     {
-        "id": 2,
-        "firstName": "Jane",
-        "lastName": "Smith",
-        "email": "jane.smith@example.com",
-        "phone": "+1-555-5678"
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-555-5678"
     },
     {
-        "id": 3,
-        "firstName": "Emily",
-        "lastName": "Johnson",
-        "email": "emily.johnson@example.com",
-        "phone": "+1-555-9101"
+      "id": "3",
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "email": "emily.johnson@example.com",
+      "phone": "+1-555-9101"
     }
-    ],
-    "PropertyTypes": [
-        {
-            "id": 1,
-            "name": "Single-Family"
-        },
-        {
-            "id": 2,
-            "name": "Condo"
-        }
-    ]
-    
-  }
-  
+  ],
+  "PropertyTypes": [
+    {
+      "id": "1",
+      "name": "Single-Family"
+    },
+    {
+      "id": "2",
+      "name": "Condo"
+    }
+  ]
+}

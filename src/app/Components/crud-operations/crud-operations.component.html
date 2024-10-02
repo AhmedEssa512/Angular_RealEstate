@@ -1,0 +1,26 @@
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">City</th>
+    
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prop of properties">
+        <th scope="row">{{prop.id}}</th>
+        <td>{{prop.name}}</td>
+        <td>{{prop.address}}</td>
+        <td>{{prop.city}}</td>
+        <td>
+            <button type="button" class="btn btn-success m-1" >Edit</button>
+            <button type="button" class="btn btn-danger m-1" (click)="openConfirmDialog(prop.id)">Delete</button>
+         
+        </td>
+      </tr> 
+    </tbody>
+  </table>
+  <app-confirm-dialog #confirmDialog (confirm)="deleteProperty($event)"  ></app-confirm-dialog>

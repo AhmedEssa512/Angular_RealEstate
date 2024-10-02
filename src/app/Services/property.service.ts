@@ -21,4 +21,9 @@ export class PropertyService {
   {
     return this.http.get<Iproperty>(`${this.apiUrl}/${id}`);
   }
+
+  deleteProperty(id:any):Observable<void>
+  {
+    return this.http.delete<void>(`${this.apiUrl}/${id}`);
+  }
 }

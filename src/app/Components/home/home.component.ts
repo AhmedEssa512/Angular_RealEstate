@@ -31,7 +31,14 @@ export class HomeComponent implements OnInit {
   {
     this._route.navigate(['/property',propertyId]);
   }
-  
+
+  deleteProperty(id:any){
+    if(confirm("Are you sure to delete this property?")){
+      this._propertyService.deleteProperty(id).subscribe(()=>{
+        this.properties = this.properties.filter(property => property.id !== id);
+      });
+    } 
+  }
 
  
 
